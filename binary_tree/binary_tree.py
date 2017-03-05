@@ -9,7 +9,8 @@ class Service(object):
         else:
             print(node.value)
             if node.value == target_value:
-                return "Node with value {0} is found: {1}. Target value was: {2}.".format(node.value, node, target_value)
+                return "Node with value {0} is found: {1}. Target value was: {2}."
+                .format(node.value, node, target_value)
             else:
                 node.setToVisited()
                 if node.left is None or node.left.visited is True:

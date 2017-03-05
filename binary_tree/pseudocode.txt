@@ -1,0 +1,17 @@
+def findNode(node, target_value):
+    if node is null:
+        escape with nothing (BAD)
+    else (node is not null):
+        if node.value == target_value:
+            escape with target node (GOOD)
+        else:
+            if node.left is null or visited:
+                if node.right is null or visited:
+                    if node.parent is null:
+                        escape with nothing (BAD)
+                    else:
+                        findNode(node.parent, target_value)
+                else:
+                    findNode(node.right, target_value)
+            else:
+                findNode(node.left, target_value)

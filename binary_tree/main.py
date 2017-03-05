@@ -16,4 +16,4 @@ n3 = Node(3, n6, n7)
 n2 = Node(2, n4, n5)
 n1 = Node(1, n2, n3)
 
-print(Service.findValue(n1, 12))
+print(Service.findValue(n1, 0))
