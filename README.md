@@ -1,1 +1,4 @@
-# Algorithms_practice
+### Practicing algorithms in Python
+
+- Binary tree
+- Bubble sort
