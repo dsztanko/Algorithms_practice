@@ -10,5 +10,5 @@ class Node(object):
         self.visited = False
         self.parent = None
 
-    def setToVisited(self):
+    def set_to_visited(self):
         self.visited = True

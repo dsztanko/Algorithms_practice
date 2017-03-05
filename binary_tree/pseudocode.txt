@@ -1,4 +1,4 @@
-def findNode(node, target_value):
+def find_node(node, target_value):
     if node is null:
         escape with nothing (BAD)
     else (node is not null):
@@ -10,8 +10,8 @@ def findNode(node, target_value):
                     if node.parent is null:
                         escape with nothing (BAD)
                     else:
-                        findNode(node.parent, target_value)
+                        find_node(node.parent, target_value)
                 else:
-                    findNode(node.right, target_value)
+                    find_node(node.right, target_value)
             else:
-                findNode(node.left, target_value)
+                find_node(node.left, target_value)

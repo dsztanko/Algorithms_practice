@@ -3,7 +3,7 @@ from node import Node
 
 class Service(object):
 
-    def findValue(node, target_value):
+    def find_value(node, target_value):
         if node is None:
             return "No node found with value {0} in this binary tree.".format(target_value)
         else:
