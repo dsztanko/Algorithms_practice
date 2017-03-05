@@ -1,0 +1,9 @@
+for (from i = 0) to array.length
+for (from j = 0) to array.length
+    if array[i] > array[j]
+     -> swap (array[i], array[j])
+
+swap: (i, j)
+var outer = array[i]
+array[i] = array[j]
+array[j] = outer
